@@ -43,9 +43,9 @@ INSERT INTO `user_tbl` (`userid`, `username`, `useremail`, `userpassword`, `role
 (1, 'clarke', 'clarke@gmail.com', '12345', 'Admin'),
 (2, 'usersample', 'user@gmail.com', '12345', 'User'),
 (3, 'ritz', 'ritz@gmail.com', '123', 'User'),
-(9, 'jerome', 'jeromee@gmail.com', '123', 'User'),
-(10, 'pacis', 'diddy67@gmail.com', '123', 'User'),
-(14, 'jlkawatan', 'kawatan@gmail.com', '123', 'User');
+(4, 'jerome', 'jeromee@gmail.com', '123', 'User'),
+(5, 'pacis', 'diddy67@gmail.com', '123', 'User'),
+(6, 'jlkawatan', 'kawatan@gmail.com', '123', 'User');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +65,7 @@ ALTER TABLE `user_tbl`
 -- AUTO_INCREMENT for table `user_tbl`
 --
 ALTER TABLE `user_tbl`
-  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
